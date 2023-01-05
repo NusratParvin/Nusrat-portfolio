@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    
+    border-radius:5px;
+    background-color: #FD6E0A;
+    border:0px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
+/* hedaer and nav-title */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+    background-origin: border-box;
+    margin: 0 100px;
+    border: 2px solid blue;
+}
+
+.nav-title{
+font-weight: 800;
+font-size: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    margin: 50px 230px;
+
+}
+
+nav li{
+    list-style: none;
+    margin-left: 60px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* banner */
+.banner{ 
+    margin: 0 100px;
+    /* width: 585px; */
+    /* height: 356px; */
+    align-items: center;
+    border: 1px solid black;
+    display:flex;
+    padding-left: 50px;
+}
+
+.banner-subtitle{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-des{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+main{
+    max-width: 1160px;
+    border:1px solid red;
+    margin: 0 auto;
+}
+
+.about-me{
+    padding: 130px 160px;
+    text-align: center;
+    border:1px solid blueviolet;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+
+}
+.my-work{
+    padding: 130px 160px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.about-me-title, .my-work-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color:#181818;
+    /*border:1px solid red;*/
+}
+.about-me-desc, .my-work-desc{
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 18px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.about-info-data{
+    font-size: 20px;
+    font-weight: 700;
+}
